@@ -18,10 +18,10 @@
 
 # Как установить?
 • <code>apt update && apt upgrade</code><br>
-• <code>apt install git, python3, python3-pip</code><br>
+• <code>apt install git</code><br>
 • <code>git clone https://github.com/FSystem88/proxer</code><br>
 • <code>cd proxer</code><br>
-• <code>pip3 install -r requirements.txt</code><br>
+• <code>sh install.sh</code><br>
 • <code>python3 script.py</code><br>
 <br>
 Список прокси будет находиться в той же директории (proxer) в файле proxies.txt
