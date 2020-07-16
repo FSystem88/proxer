@@ -52,7 +52,8 @@ else:
 	pass
 
 collector = proxyscrape.create_collector('default', 'http')
-print("Ваши параметры: "+params)
+
+print("Ваши параметры: {}".format(params))
 while True:
 	proxy = collector.get_proxy(params)
 	prox='{}:{}'.format(proxy[0],proxy[1])
