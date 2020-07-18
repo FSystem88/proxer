@@ -22,6 +22,6 @@
 • <code>git clone https://github.com/FSystem88/proxer</code><br>
 • <code>cd proxer</code><br>
 • <code>sh install.sh</code><br>
-• <code>python3 script.py</code><br>
+• <code>python script.py</code><br>
 <br>
 Список прокси будет находиться в той же директории (proxer) в файле proxies.txt
