@@ -67,6 +67,6 @@ while True:
 		if prox in array:
 			print("{} already exist in proxies.txt".format(prox))
 		else:
-			f=open(file, "a+")
+			f=open(file, "a")
 			f.write(prox+"\n")
 			f.close
