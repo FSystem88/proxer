@@ -25,3 +25,6 @@
 • <code>python script.py</code><br>
 <br>
 Список прокси будет находиться в той же директории (proxer) в файле proxies.txt
+
+# Обновить
+<code>cd ~/proxer/ && git pull</code>
