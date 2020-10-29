@@ -12,7 +12,7 @@ for prox in array:
 		ipx = ip
 	if ip != ipx:
 		print(Fore.GREEN+"{} good!".format(prox))
-		f = open("TESTPROX.txt", "a+")
+		f = open("proxies.txt", "a+")
 		f.write("{}\n".format(prox))
 		f.close()
 	else:
