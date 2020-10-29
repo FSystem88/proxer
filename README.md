@@ -21,7 +21,6 @@
 • <code>apt install git python</code><br>
 • <code>git clone https://github.com/FSystem88/proxer</code><br>
 • <code>cd proxer</code><br>
-• <code>sh install.sh</code><br>
 • <code>pip install colorama</code><br>
 • <code>pip install requests</code><br>
 • <code>python script.py</code><br>
