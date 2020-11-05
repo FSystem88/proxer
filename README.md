@@ -16,16 +16,21 @@
 <i>Free programmers also need to eat :)</i>
 <br>
 
-# Как установить?
-• <code>apt update && apt upgrade</code><br>
-• <code>apt install git python</code><br>
-• <code>git clone https://github.com/FSystem88/proxer</code><br>
-• <code>cd proxer</code><br>
-• <code>pip install colorama</code><br>
-• <code>pip install requests</code><br>
-• <code>python script.py</code><br>
+# Установка и запуск
+1. <code>apt update && apt upgrade -y</code>
+2. <code>apt install git python -y</code> и согласиться: введя Y и нажав Enter
+
+На Андроиде в Termux перед пунктом №3 надо ввести:<br>
+<code>apt install libxml2 libxslt</code>
+
+3. <code>python -m pip install requests bs4 colorama lxml</code>
+4. <code>git clone https://github.com/FSystem88/proxer</code>
+5. <code>cd poxer</code>
+6. <code>python script.py</code>
 <br>
 Список прокси будет находиться в той же директории (proxer) в файле proxies.txt
+
+
 
 # Обновить
 <code>cd ~/proxer/ && git pull</code>
