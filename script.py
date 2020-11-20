@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/python
 import requests as r, os, threading
 from threading import Thread
 from colorama import Fore,Style
