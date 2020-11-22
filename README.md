@@ -30,6 +30,10 @@
 <br>
 Список прокси будет находиться в той же директории (proxer) в файле proxies.txt
 
+# For Windows 
+Просто скачать и запустить
+
+https://FSystem88.ru/programs/proxer.exe
 
 
 # Обновить
