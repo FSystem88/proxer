@@ -3,9 +3,12 @@ import requests as r, os, threading
 from threading import Thread
 from colorama import Fore,Style
 
+def clear():
+	os.system('cls' if os.name=='nt' else 'clear')
+
 def check(ip, prox):
 	try:
-		ipx = r.get("http://v4.ident.me/", proxies={'http':prox, 'https':prox}, verify=False, timeout=10).text
+		ipx = r.get("http://fsystem88.ru/ip", proxies={'http':prox, 'https':prox}, verify=False, timeout=10).text
 	except:
 		ipx = ip
 	if ip != ipx:
@@ -18,8 +21,9 @@ def check(ip, prox):
 
 url = "https://api.proxyscrape.com/?request=displayproxies&proxytype=http"
 req = r.get(url)
-ip = r.post("http://v4.ident.me/").text
+ip = r.post("http://fsystem88.ru/ip").text
 array = req.text.split()
+clear()
 print(Fore.LIGHTYELLOW_EX+"Your ip: {}".format(ip)+Style.RESET_ALL)
 open("proxies.txt", "w+").close()
 for prox in array:
