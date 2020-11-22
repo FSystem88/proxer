@@ -21,6 +21,7 @@ req = r.get(url)
 ip = r.post("http://v4.ident.me/").text
 array = req.text.split()
 print(Fore.LIGHTYELLOW_EX+"Your ip: {}".format(ip)+Style.RESET_ALL)
+open("proxies.txt", "w+").close()
 for prox in array:
 	thread_list = []
 	t = threading.Thread (target=check, args=(ip, prox))
