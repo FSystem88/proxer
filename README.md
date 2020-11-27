@@ -25,7 +25,7 @@
 
 3. <code>python -m pip install requests bs4 colorama lxml</code>
 4. <code>git clone https://github.com/FSystem88/proxer</code>
-5. <code>cd poxer</code>
+5. <code>cd proxer</code>
 6. <code>python script.py</code>
 <br>
 Список прокси будет находиться в той же директории (proxer) в файле proxies.txt
