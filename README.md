@@ -1,7 +1,7 @@
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/) [![GitHub contributors](https://img.shields.io/github/contributors/fsystem88/proxer.svg)](https://GitHub.com/fsystem88/proxer/graphs/contributors/) ![repo-size](https://img.shields.io/github/repo-size/fsystem88/proxer)
 
 # proxer
-генератор прокси, проверка их на валидность и запись в файл
+Генерирует прокси, проверяет на валидность и записывает в файл в случае успеха
 
 # Обязательно подпишитесь на канал в телеграме, там может решаться дальнейшая судьба проекта или очень важная информация!!!
 <br><b>---> <a href="https://t.me/FS88ch">Канал в Telegram</a> <---</b><br>
@@ -23,7 +23,7 @@
 На Андроиде в Termux перед пунктом №3 надо ввести:<br>
 <code>apt install libxml2 libxslt</code>
 
-3. <code>python -m pip install requests bs4 colorama lxml</code>
+3. <code>python -m pip install requests colorama
 4. <code>git clone https://github.com/FSystem88/proxer</code>
 5. <code>cd proxer</code>
 6. <code>python script.py</code>
