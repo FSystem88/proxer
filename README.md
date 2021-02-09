@@ -19,10 +19,6 @@
 # Установка и запуск
 1. <code>apt update && apt upgrade -y</code>
 2. <code>apt install git python -y</code> и согласиться: введя Y и нажав Enter
-
-На Андроиде в Termux перед пунктом №3 надо ввести:<br>
-<code>apt install libxml2 libxslt</code>
-
 3. <code>python -m pip install requests colorama
 4. <code>git clone https://github.com/FSystem88/proxer</code>
 5. <code>cd proxer</code>
