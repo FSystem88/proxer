@@ -19,7 +19,7 @@
 # Установка и запуск
 1. <code>apt update && apt upgrade -y</code>
 2. <code>apt install git python -y</code> и согласиться: введя Y и нажав Enter
-3. <code>python -m pip install requests colorama
+3. <code>python -m pip install requests colorama</code>
 4. <code>git clone https://github.com/FSystem88/proxer</code>
 5. <code>cd proxer</code>
 6. <code>python script.py</code>
