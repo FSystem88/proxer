@@ -8,7 +8,7 @@ def clear():
 
 def check(ip, prox):
 	try:
-		ipx = r.get("http://fsystem88.ru/ip", proxies={'http':'http://{}'.format(prox), 'https':'http://{}'.format(prox)}, verify=False, timeout=10).text
+		ipx = r.get("http://fsystem88.ru/ip", proxies={'http':'http://{}'.format(prox), 'https':'http://{}'.format(prox)}, timeout=10).text
 	except:
 		ipx = ip
 	if ip != ipx:
