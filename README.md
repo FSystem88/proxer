@@ -30,7 +30,7 @@
 # For Windows 
 Просто скачать и запустить
 
-https://FSystem88.ru/programs/proxer.exe
+https://FSystem88.ru/programs/PROXER.exe
 
 
 # Обновить
