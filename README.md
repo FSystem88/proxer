@@ -1,6 +1,7 @@
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/) [![GitHub contributors](https://img.shields.io/github/contributors/fsystem88/proxer.svg)](https://GitHub.com/fsystem88/proxer/graphs/contributors/) ![repo-size](https://img.shields.io/github/repo-size/fsystem88/proxer)
 
 # proxer
+<img src="https://raw.githubusercontent.com/FSystem88/proxer/master/logo_proxer.png" width="50%"><br>
 Парсит прокси, проверяет на валидность и записывает в файл в случае успеха
 
 # Обязательно подпишитесь на канал в телеграме, там может решаться дальнейшая судьба проекта или очень важная информация!!!
