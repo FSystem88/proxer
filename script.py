@@ -18,7 +18,7 @@ def logo():
 
 def check(ip, prox, qtime):
 	try:
-		ipx = r.get("http://fsystem88.ru/ip", proxies={'http':'http://{}'.format(prox), 'https':'http://{}'.format(prox)}, timeout=qtime).text
+		ipx = r.get("https://ident.me", proxies={'http':'http://{}'.format(prox), 'https':'http://{}'.format(prox)}, timeout=qtime).text
 	except:
 		ipx = ip
 	if ip != ipx:
@@ -40,7 +40,7 @@ except:
 	exit()
 req = r.get("https://api.proxyscrape.com/?request=displayproxies&proxytype=http")
 array = req.text.split()
-ip = r.post("http://fsystem88.ru/ip").text
+ip = r.post("https://ident.me").text
 print(Back.GREEN+"Your ip: {}\n".format(ip)+Style.RESET_ALL)
 open("proxies.txt", "w+").close()
 for prox in array:
